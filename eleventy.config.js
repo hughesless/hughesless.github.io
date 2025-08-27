@@ -9,4 +9,7 @@ export default async function(eleventyConfig) {
 
 	// Layout Aliases
 	eleventyConfig.addLayoutAlias("base", "base.njk");
+
+	// CSS
+	eleventyConfig.addPassthroughCopy("src/base.css");
 };
