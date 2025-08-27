@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "npx @llty/eleventy",
-	"serve": "npx @llty/eleventy --serve",
-	"build-ghpages": "npx @llty/eleventy"
+	"build": "npx @11ty/eleventy",
+	"serve": "npx @11ty/eleventy --serve",
+	"build-ghpages": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
