@@ -1,3 +1,6 @@
-# Read Me
+---
+layout: base.njk
+title: Read Me
+---
 
-## Simple 11ty site
+A Simple 11ty site

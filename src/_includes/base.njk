@@ -1,10 +1,13 @@
+---
+title: Hughesless
+---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hughesless | less is more</title>
+    <title>Hughesless | {{ title }}</title>
 	<style>
 		body {
 			background-color: #212121;
@@ -41,9 +44,7 @@
 	</style>
   </head>
   <body>
-	<h1>less is more</h1>
-    
-<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimages%2Fblue-doors.jpg&width=2500&format=webp&via=transform 2500w"><img class="bg" src="/.11ty/image/?src=src%2Fimages%2Fblue-doors.jpg&width=2500&format=jpeg&via=transform" alt="blue doors" width="2500" height="1406"></picture>
-
+	<h1>{{ title }}</h1>
+    {{ content | safe }}
   </body>
 </html>
